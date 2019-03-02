@@ -6,10 +6,10 @@ from tweepy import Stream
 import io
 import json
 
-ACCESS_TOKEN = "3112185708-dOGIAGPvqrgs6nBTOSiqh5JygvWKIF9AzVmqf6H"
-ACCESS_TOKEN_SECRET = "cZ08nrUL70BfwaJrqfwbYkJjIXbrSLCUflglBsbR6rNHe"
-CONSUMER_KEY = "HU2wusYStZAznrJ1fedu87zm0"
-CONSUMER_SECRET = "0kLc4RqWGqkxHNaYHBlIBAuaWT6VNurIZULms8loJET1SQBpVp"
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
 class TwitterClient():
     def __init__(self, twitter_user,fetched_tweets_filename):
